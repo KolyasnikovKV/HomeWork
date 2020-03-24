@@ -1,0 +1,170 @@
+<executionDocument schemaVersion="1.0">
+    <documentData>
+        <id></id>
+        <EDO_guid/>
+        <externalId>1000125</externalId>
+        <href></href>
+        <docName>Акт сдачи -приемки услуг</docName>
+        <docNumber>KKKKKKK2</docNumber>
+        <docDate>2019-10-19T11:49:25.460Z</docDate>
+        <formingDate></formingDate>
+        <formingContractSide>
+            <type>1</type>
+            <name>Общество с ограниченной ответственностью "Рузский региональный оператор"</name>
+            <shortName>ООО "Рузский РО"</shortName>
+            <lastName/>
+            <firstName/>
+            <middleName/>
+            <INN>5017115922</INN>
+            <KPP>501701001</KPP>
+            <factAddress>143500, Московская область, Истринский район, г. Истра, ул. Московская, 48, оф. 37</factAddress>
+            <legalAddress>143500, Московская область, Истринский район, г. Истра, ул. Московская, 48, оф. 37</legalAddress>
+        </formingContractSide>
+        <signDate/>
+        <type>1</type>
+        <status>1</status>
+        <isFinalDocument>true</isFinalDocument>
+        <contractNumber>РРО-2018-0002204</contractNumber>
+        <contractRegistryNumber/>
+        <contractExternalNumber/>
+        <contractCustomer>
+            <type>1</type>
+            <name>Государственное бюджетное учреждение Московской области "Мосавтодор"</name>
+            <shortName>ГБУ МО «МОСАВТОДОР»</shortName>
+            <lastName/>
+            <firstName/>
+            <middleName/>
+            <INN>5000001525</INN>
+            <KPP>502401001</KPP>
+            <factAddress>Российская Федерация, 143421, Московская обл, 26 км автодороги Балтия, бизнес-центр "Рига-Ленд", стр.2, -</factAddress>
+            <legalAddress>Российская Федерация, 143421, Московская обл, 26 км автодороги Балтия, бизнес-центр "Рига-Ленд", стр.2, -</legalAddress>
+        </contractCustomer>
+        <contractSupplier>
+            <type>1</type>
+            <name>Общество с ограниченной ответственностью "Рузский региональный оператор"</name>
+            <shortName>ООО "Рузский РО"</shortName>
+            <lastName/>
+            <firstName/>
+            <middleName/>
+            <INN>5017115922</INN>
+            <KPP>501701001</KPP>
+            <factAddress>143500, Московская область, Истринский район, г. Истра, ул. Московская, 48, оф. 37</factAddress>
+            <legalAddress>143500, Московская область, Истринский район, г. Истра, ул. Московская, 48, оф. 37</legalAddress>
+        </contractSupplier>
+        <contractSubject>Оказание услуг по обращению с твердыми коммунальными отходами</contractSubject>
+        <obligationName>Оказание услуг по обращению с твердыми коммунальными отходами</obligationName>
+        <lastStatusChangeDate>2019-08-19T11:49:25.460Z</lastStatusChangeDate>
+        <totalAmountInRub>0</totalAmountInRub>
+        <UISDocumentType/>
+    </documentData>
+    <printForm/>
+    <listOfSignPersons/>
+    <obligationExecutionData>
+        <sum>0</sum>
+        <expertAssessmentResult/>
+        <organizationRegistryNumber/>
+        <customerDetails>
+            <mainData>
+                <type>1</type>
+                <name>Государственное бюджетное учреждение Московской области "Мосавтодор"</name>
+                <shortName>ГБУ МО «МОСАВТОДОР»</shortName>
+                <lastName/>
+                <firstName/>
+                <middleName/>
+                <INN>5000001525</INN>
+                <KPP>502401001</KPP>
+                <factAddress>Российская Федерация, 143421, Московская обл, 26 км автодороги Балтия, бизнес-центр "Рига-Ленд", стр.2, -</factAddress>
+                <legalAddress>Российская Федерация, 143421, Московская обл, 26 км автодороги Балтия, бизнес-центр "Рига-Ленд", стр.2, -</legalAddress>
+            </mainData>
+            <bankData>
+                <bankBIK>11</bankBIK>
+                <bankName>1</bankName>
+                <accountNumber>1</accountNumber>
+                <personalAccountNumber/>
+                <corAccountNumber/>
+            </bankData>
+        </customerDetails>
+        <supplierDetails>
+            <mainData>
+                <type>1</type>
+                <name>Общество с ограниченной ответственностью "Рузский региональный оператор"</name>
+                <shortName>ООО "Рузский РО"</shortName>
+                <lastName/>
+                <firstName/>
+                <middleName/>
+                <INN>5017115922</INN>
+                <KPP>501701001</KPP>
+                <factAddress>143500, Московская область, Истринский район, г. Истра, ул. Московская, 48, оф. 37</factAddress>
+                <legalAddress>143500, Московская область, Истринский район, г. Истра, ул. Московская, 48, оф. 37</legalAddress>
+            </mainData>
+            <bankData>
+                <bankBIK/>
+                <bankName/>
+                <accountNumber/>
+                <personalAccountNumber/>
+                <corAccountNumber/>
+            </bankData>
+        </supplierDetails>
+        <consigneeDetails>
+            <mainData>
+                <type>1</type>
+                <name>Государственное бюджетное учреждение Московской области "Мосавтодор"</name>
+                <shortName>ГБУ МО «МОСАВТОДОР»</shortName>
+                <lastName/>
+                <firstName/>
+                <middleName/>
+                <INN>5000001525</INN>
+                <KPP>502401001</KPP>
+                <factAddress>Российская Федерация, 143421, Московская обл, 26 км автодороги Балтия, бизнес-центр "Рига-Ленд", стр.2, -</factAddress>
+                <legalAddress>Российская Федерация, 143421, Московская обл, 26 км автодороги Балтия, бизнес-центр "Рига-Ленд", стр.2, -</legalAddress>
+            </mainData>
+            <bankData>
+                <bankBIK>11</bankBIK>
+                <bankName>1</bankName>
+                <accountNumber>1</accountNumber>
+                <personalAccountNumber/>
+                <corAccountNumber/>
+            </bankData>
+        </consigneeDetails>
+        <shipperDetails/>
+        <expertOrgDetails/>
+        <executionApplicationId/>
+        <executionId>1012841</executionId>
+        <executionStartDate>2019-10-01T11:49:25.460Z</executionStartDate>
+        <executionEndDate>2019-10-31T11:49:25.460Z</executionEndDate>
+        <executionResultsRejectionReason/>
+        <resultIsExpertOrgServices_2_4_94_44_FZ/>
+        <resultIsCapitalConstructionDocumentation_3_4_94_44_FZ/>
+    </obligationExecutionData>
+     <documentProductsData>
+        <documentProductData>
+            <name>Оказание услуг по обращению с твердыми коммунальными отходами</name>
+            <price>222.0000000000</price>
+            <quantity>1.0</quantity>
+            <sid/>
+            <sumWithVat>222.0000000000</sumWithVat>
+            <sumWithoutVat/>
+            <OKPD2Code>38.11.29.000</OKPD2Code>
+            <UOMCode>876</UOMCode>
+            <KTRUCode/>
+            <VAT>WVAT</VAT>
+            <VATInRub/>
+        </documentProductData>
+    </documentProductsData>
+    <signers>
+    	<signer>
+    		<orgType>1</orgType>
+    		<authorityScope>1</authorityScope>
+    		<status>1</status>
+    		<authorityBase>Приказ № 1</authorityBase>
+    		<orgAuthorityBase>Приказ № 2</orgAuthorityBase>
+    		<firstName>Иван</firstName>
+    		<lastName>Иванов</lastName>
+    		<middleName>Иванович</middleName>
+    		<INN>5017115922</INN>
+    		<orgName>Общество с ограниченной ответственностью "Рузский региональный оператор"</orgName>
+    		<post>Директор</post>
+    		<isResult>true</isResult>
+    	</signer>
+    </signers>
+</executionDocument>
