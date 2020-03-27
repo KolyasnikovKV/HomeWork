@@ -1,4 +1,4 @@
-package main;
+package main.ru.kolyasnikovkv.archivator;
 
 import java.io.IOException;
 import java.util.concurrent.Callable;
