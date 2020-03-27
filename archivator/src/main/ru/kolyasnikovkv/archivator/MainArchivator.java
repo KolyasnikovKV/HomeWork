@@ -34,6 +34,7 @@ public class MainArchivator {
 
     private DataInputStream openInpurStream(String fileName) throws IOException {
 
+        //КАк вот здесть быть?
         /*try(FileInputStream fin=new FileInputStream("C://SomeDir//notes.txt"))
         {
             int i=-1;
