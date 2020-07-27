@@ -3,6 +3,12 @@ import java.util.HashSet;
 import java.util.Scanner;
 import java.util.Set;
 
+
+//Как определить дублированный элемент в массиве, в котором содержатся элементы типа int от 1 до 100, при условии, что в массиве дублируется только один элемент?
+//Считаем сумму всех чисел от 1 до 100.
+//Считаем сумму элементов массива.
+//Вычитаем первое из второго.
+//ПЕРЕБОР
 public class FindDoubleElementArray {
 
     public static void main(String[] args){
