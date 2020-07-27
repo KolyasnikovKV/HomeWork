@@ -1,5 +1,7 @@
 import java.util.Arrays;
+import java.util.HashSet;
 import java.util.Scanner;
+import java.util.Set;
 
 public class FindDoubleElementArray {
 
@@ -20,6 +22,20 @@ public class FindDoubleElementArray {
                     System.out.print(i + " - ");
                     System.out.println(ar[i]);
                 }
+            }
+        }
+
+        // N2
+        // Вариант 2
+
+        Set<Integer> set = new HashSet<Integer>();
+        for(int i = 0; i < size; i++){
+            if (set.contains(ar[i])){
+                System.out.println(ar[i]);
+            }
+            else
+            {
+                set.add(ar[i]);
             }
         }
     }
