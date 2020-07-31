@@ -1,3 +1,5 @@
+package list;
+
 import java.util.Scanner;
 
 public class FindElementLinkedList {
@@ -53,7 +55,6 @@ public class FindElementLinkedList {
 
         }
         System.out.println("find:" + find);
-        System.out.println("Linked List : " + list);
 
     }
 }
@@ -74,18 +75,6 @@ class LinkedList{
     public void add(Node node){
         tail.next = node;
         tail = node;
-    }
-
-    @Override
-    public String toString(){
-       StringBuilder sb = new StringBuilder();
-       Node current = head.next;
-       while (current != null){
-           sb.append(current).append("-->");
-           current = current.next;
-       }
-       sb.delete(sb.length() - 3, sb.length());
-       return sb.toString();
     }
 
     public static class Node{

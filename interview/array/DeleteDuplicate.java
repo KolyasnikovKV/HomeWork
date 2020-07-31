@@ -22,8 +22,25 @@ public class DeleteDuplicate {
         return newArr;
     }
 
+    //вариант 2
+    public static void removeDuplicates(Integer[] arr){
+        Arrays.sort(arr);
+        Integer[] newArr = new Integer[arr.length];
+        int previous = arr[0];
+        newArr[0] = previous;
+        for (int i = 1; i < arr.length; i++){
+            if (arr[i] != previous){
+                newArr[i] = arr[i];
+                }
+            previous = arr[i];
+        }
+
+        System.out.println(Arrays.toString(newArr));
+    }
+
+
     public static void main(String[] args){
-        Integer[] arr = {1, 2, 2, 3, 4, 5, 5};
+        Integer[] arr = {1, 2, 2, 3, 4, 5, 5, 6};
         //сохранит
         Set<Integer> set = new LinkedHashSet<Integer>();
         for (int item: arr){
@@ -44,6 +61,7 @@ public class DeleteDuplicate {
         }
         System.out.println(Arrays.toString(result));
 
+        removeDuplicates(arr);
 
     }
 }
