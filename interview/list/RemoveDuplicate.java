@@ -214,6 +214,10 @@ class LinkedList4{
         tail.next = node;
     }
 
+    public Node getHead(){
+        return head;
+    }
+
 
     public static class Node{
         private Node next;

@@ -23,6 +23,11 @@ public class DeleteDuplicate {
     }
 
     //вариант 2
+
+    /**
+     *
+     * @param arr
+     */
     public static void removeDuplicates(Integer[] arr){
         Arrays.sort(arr);
         Integer[] newArr = new Integer[arr.length];
@@ -42,7 +47,7 @@ public class DeleteDuplicate {
     public static void main(String[] args){
         Integer[] arr = {1, 2, 2, 3, 4, 5, 5, 6};
         //сохранит
-        Set<Integer> set = new LinkedHashSet<Integer>();
+        Set<Integer> set = new LinkedHashSet<>();
         for (int item: arr){
             set.add(item);
         }
