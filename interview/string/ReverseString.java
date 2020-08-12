@@ -19,5 +19,18 @@ public class ReverseString {
             newchAr[chAr.length - i - 1] = buff;
         }
         System.out.println(new String(newchAr));
+
+        String reverse = reverseRecursively("ПРИВЕТ");
+        System.out.println(reverse);
     }
+
+
+    public static String reverseRecursively(String str){
+        if (str.length() < 2){
+            return  str;
+        }
+
+        return reverseRecursively(str.substring(1)) + str.charAt(0);
+    }
+
 }
