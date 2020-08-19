@@ -1,5 +1,8 @@
 package tree;
 
+import com.sun.deploy.util.SyncAccess;
+import sun.reflect.generics.tree.Tree;
+
 import java.util.Stack;
 
 public class PreOrderTraversal {
@@ -28,6 +31,10 @@ public class PreOrderTraversal {
         bt.preOrderWithouRecursion();
         System.out.printf("%nIteration inOrderWithouRecursion %n");
         bt.inOrderWithouRecursion();
+        System.out.printf("%nIteration postOrderWithouRecursion %n");
+        bt2.postOrderWithouRecursion2();
+        System.out.printf("%nIteration postOrderWithouRecursion %n");
+        bt2.postOrderWithouRecursion();
         //System.out.println(bt.size());
 
 
@@ -137,6 +144,58 @@ class BinaryTree{
         }
     }
 
+
+    public void postOrderWithouRecursion(){
+        Stack<TreeNode> nodes = new Stack<>();
+        nodes.push(root);
+
+        while(!nodes.isEmpty()){
+            TreeNode current = nodes.peek();
+
+            if (current.isLeaf()){
+                TreeNode node = nodes.pop();
+                System.out.printf("%s ", node.data);
+            } else {
+                if(current.right != null){
+                    nodes.push(current.right);
+                    current.right = null;
+                }
+                if(current.left != null){
+                    nodes.push(current.left);
+                    current.left = null;
+                }
+            }
+
+        }
+    }
+
+    public void postOrderWithouRecursion2(){
+        Stack<TreeNode> nodes = new Stack<>();
+        nodes.push(root);
+
+        TreeNode lastPrintedNode = root;
+        TreeNode current;
+        while(!nodes.isEmpty()){
+            current = nodes.pop();
+             if (current.isLeaf() || lastPrintedNode == current.left || lastPrintedNode == current.right){
+                System.out.printf("%s ", current.data);
+                lastPrintedNode = current;
+            } else {
+
+                 nodes.push(current);
+
+                if(current.right != null){
+                    nodes.push(current.right);
+                }
+                if(current.left != null){
+                    nodes.push(current.left);
+                }
+            }
+
+        }
+    }
+
+
     public int size(){
         TreeNode current = root;
         int size = 0;
@@ -166,8 +225,8 @@ class BinaryTree{
         tree.root.left.right = new TreeNode("45");
         tree.root.right = new TreeNode("65");
         tree.root.right.right = new TreeNode("75");
-        tree.root.left.right.left = new TreeNode("87");
-        tree.root.left.right.right = new TreeNode("98");
+        tree.root.right.right.left = new TreeNode("87");
+        tree.root.right.right.right = new TreeNode("98");
         return tree; }
 
 
