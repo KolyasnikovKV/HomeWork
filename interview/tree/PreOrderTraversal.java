@@ -33,8 +33,11 @@ public class PreOrderTraversal {
         bt.inOrderWithouRecursion();
         System.out.printf("%nIteration postOrderWithouRecursion %n");
         bt2.postOrderWithouRecursion2();
+        //System.out.printf("%nIteration postOrderWithouRecursion %n");
+        //bt2.postOrderWithouRecursion();
         System.out.printf("%nIteration postOrderWithouRecursion %n");
-        bt2.postOrderWithouRecursion();
+        bt2.printLeaves(root);
+        System.out.printf("%ncount %d %n", bt2.countLeaves(root));
         //System.out.println(bt.size());
 
 
@@ -213,6 +216,29 @@ class BinaryTree{
 
         }
         return size;
+    }
+
+    public static void printLeaves(TreeNode node){
+        if (node == null) {
+            return;
+        }
+
+        if (node.isLeaf()){
+            System.out.printf("%s ", node.data);
+        }
+        printLeaves(node.left);
+        printLeaves(node.right);
+    }
+
+    public static int countLeaves(TreeNode node){
+        if(node == null){
+            return 0;
+        }
+
+        if (node.isLeaf()){
+            return 1;
+        }
+        return countLeaves(node.left) + countLeaves(node.right);
     }
 
     public static BinaryTree create() {
